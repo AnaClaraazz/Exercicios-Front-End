@@ -1,0 +1,60 @@
+.center{
+    text-align: center;
+}
+
+.container{
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+
+#menu li{
+    display: inline;
+    padding: 20px;
+}
+
+#menu li a:hover{
+    font-size: 20px;
+    color:blueviolet;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.wh-400{
+    width: 400px;
+    height: 400px;
+}
+
+.tm-social{
+    width: 30px;
+    height: 30px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.sombra {
+    box-shadow: 5px 5px 8px rgb(63, 4, 62), 10px 10px 8px rgb(124, 2, 211), 15px 15px 8px rgb(209, 147, 244);
+  }
+.body {
+    background-color: rgb(243, 65, 246);
+  }
